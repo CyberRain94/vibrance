@@ -1,4 +1,4 @@
-import images from "@/constants/meditation-images";
+import images from "@/../constants/meditation-images";
 
 const MEDITATION_GALLERY = [
     {
