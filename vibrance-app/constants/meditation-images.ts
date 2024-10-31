@@ -14,7 +14,7 @@ import wanderlustThreePinkWave from "@assets/Meditation-Images/pexels-souvenirpi
 import wanderlustFourMountainReflection from "@assets/Meditation-Images/pexels-eberhardgross-hyperview-mountain-reflection.jpg";
 
 import stockImagesOneAquaLake from "@assets/Meditation-Images/pexels-snowy-mountains-blue-aqua-lake.jpg";
-import stockImagesTwoTreeHalo from "@assets/vibrance/vibrance-app/assets/Meditation-Images/pexels-timmossholder-tree-halo.jpg";
+import stockImagesTwoTreeHalo from "@assets/Meditation-Images/pexels-timmossholder-tree-halo.jpg";
 import stockImagesThreeBlueAbyss from "@assets/Meditation-Images/pexels-vishal-amin-blue-mountain-abyss.jpg";
 import stockImagesFourWaterfall from "@assets/Meditation-Images/pexels-taryn-elliott-waterfall.jpg";
 

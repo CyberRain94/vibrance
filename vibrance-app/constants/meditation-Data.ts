@@ -13,11 +13,12 @@ import wanderlustTwoJungleRiver from "@assets/Meditation-Images/pexels-rifkyilha
 import wanderlustThreePinkWave from "@assets/Meditation-Images/pexels-souvenirpixels-pink-wave.jpg";
 import wanderlustFourMountainReflection from "@assets/Meditation-Images/pexels-eberhardgross-hyperview-mountain-reflection.jpg";
 
+/*
 import stockImagesOneAquaLake from "@assets/Meditation-Images/pexels-snowy-mountains-blue-aqua-lake.jpg";
 import stockImagesTwoTreeHalo from "@assets/vibrance/vibrance-app/assets/Meditation-Images/pexels-timmossholder-tree-halo.jpg";
 import stockImagesThreeBlueAbyss from "@assets/Meditation-Images/pexels-vishal-amin-blue-mountain-abyss.jpg";
 import stockImagesFourWaterfall from "@assets/Meditation-Images/pexels-taryn-elliott-waterfall.jpg";
-
+*/
 
 export interface MeditationType {
     id: number;
@@ -99,6 +100,7 @@ export const MEDITATION_DATA: MeditationType[] = [
         image: wanderlustFourMountainReflection,
         audio: "waterfall.mp3",
     },
+    /*
         {
     id: 8,
         title: "Star Shopping",
@@ -129,7 +131,7 @@ export const MEDITATION_DATA: MeditationType[] = [
         image: wanderlustFourMountainReflection,
         audio: "waterfall.mp3",
     },
-
+*/
 ];
 
 export const AUDIO_FILES: { [key: string]: any } = {

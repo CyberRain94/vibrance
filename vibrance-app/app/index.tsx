@@ -3,7 +3,7 @@ import { View, Text, ImageBackground } from 'react-native'
 import React from 'react';
 
 
-import  stockImagesTwoTreeHalo from "/home/deepb__/Clones/vibrance/vibrance-app/assets/Meditation-Images/pexels-timmossholder-tree-halo.jpg";
+import  stockImagesTwoTreeHalo from "@assets/Meditation-Images/pexels-timmossholder-tree-halo.jpg";
 import { SafeAreaView } from 'react-native-safe-area-context';
 import CustomButton from 'components/CustomButton';
 import { useRouter } from 'expo-router';
