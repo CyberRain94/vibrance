@@ -18,7 +18,7 @@ import stockImagesTwoTreeHalo from "@assets/Meditation-Images/pexels-timmosshold
 import stockImagesThreeBlueAbyss from "@assets/Meditation-Images/pexels-vishal-amin-blue-mountain-abyss.jpg";
 import stockImagesFourWaterfall from "@assets/Meditation-Images/pexels-taryn-elliott-waterfall.jpg";
 
-export default {
+export default [
     riseOneBeach,
     riseTwoSitting,
     riseThreeSunrise,
@@ -35,4 +35,4 @@ export default {
     stockImagesTwoTreeHalo,
     stockImagesThreeBlueAbyss,
     stockImagesFourWaterfall,
-};
+];
