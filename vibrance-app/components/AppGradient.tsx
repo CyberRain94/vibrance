@@ -1,13 +1,13 @@
-import React  from 'react';
-import {LinearGradient} from "expo-linear-gradient";
-import { SafeAreaView } from 'react-native-safe-area-context';
+import React from "react";
+import { LinearGradient } from "expo-linear-gradient";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const AppGradient = ({
-    children, 
-    colors, 
+  children,
+  colors,
 }: {
-    children: any;
-    colors: string[];
+  children: any;
+  colors: readonly [string, string, ...string[]];
 }) => {
   return (
     <LinearGradient colors={colors} className="flex-1">
@@ -16,11 +16,8 @@ const AppGradient = ({
   );
 };
 
-const Content = ({children}: any) => {
-  return (
-    <SafeAreaView className='flex-1 px-5 py-3'>{children}</SafeAreaView>
-  )
-}
-
+const Content = ({ children }: any) => {
+  return <SafeAreaView className="flex-1 px-5 py-3">{children}</SafeAreaView>;
+};
 
 export default AppGradient;

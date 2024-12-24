@@ -1,42 +1,39 @@
+import { View, Text, ImageBackground } from "react-native";
+import React from "react";
 
-import { View, Text, ImageBackground } from 'react-native'
-import React from 'react';
+import stockImagesTwoTreeHalo from "@assets/Meditation-Images/pexels-timmossholder-tree-halo.jpg";
+import { SafeAreaView } from "react-native-safe-area-context";
+import CustomButton from "components/CustomButton";
+import { useRouter } from "expo-router";
+import AppGradient from "components/AppGradient";
 
-
-import  stockImagesTwoTreeHalo from "@assets/Meditation-Images/pexels-timmossholder-tree-halo.jpg";
-import { SafeAreaView } from 'react-native-safe-area-context';
-import CustomButton from 'components/CustomButton';
-import { useRouter } from 'expo-router';
-import AppGradient from 'components/AppGradient';
- 
 const App = () => {
   const router = useRouter();
   return (
-    <View className='flex-1'>
-      <ImageBackground 
-          source={stockImagesTwoTreeHalo} 
-          resizeMode="cover" 
-          className="flex-1"
-          >
-           
-            <AppGradient colors={[""]}>
-              <SafeAreaView className='flex-1 mx-5 my-12 justify-between'>
-                <View>
-                    <Text className='text-center text-white font-bold text-4xl'>
-                      Vibrance
-                      </Text>
-                    <Text className='text-center text-white text-regular text-2xl mt-3'>
-                      A touch of vibrancy for all
-                      </Text>
-                </View>
-                <View>
-                  <CustomButton onPress={() => router.push("/nature-meditate")}
-                  title = 'Get started'
-                  />
-                </View>
-                </SafeAreaView>
-            </AppGradient>
-          
+    <View className="flex-1">
+      <ImageBackground
+        source={stockImagesTwoTreeHalo}
+        resizeMode="cover"
+        className="flex-1"
+      >
+        <AppGradient colors={[""]}>
+          <SafeAreaView className="flex-1 mx-5 my-12 justify-between">
+            <View>
+              <Text className="text-center text-white font-bold text-4xl">
+                Vibrance
+              </Text>
+              <Text className="text-center text-white text-regular text-2xl mt-3">
+                A touch of vibrancy for all
+              </Text>
+            </View>
+            <View>
+              <CustomButton
+                onPress={() => router.push("/nature-meditate")}
+                title="Get started"
+              />
+            </View>
+          </SafeAreaView>
+        </AppGradient>
       </ImageBackground>
     </View>
   );
