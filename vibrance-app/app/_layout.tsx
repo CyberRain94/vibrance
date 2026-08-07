@@ -1,4 +1,5 @@
 //Expands image to device proportions
+import "../global.css";
 import { Slot, SplashScreen, Stack } from "expo-router";
 import { useFonts } from "expo-font";
 import React, { useEffect } from "react";
@@ -17,7 +18,6 @@ export default function RootLayout() {
     if (fontsLoaded) SplashScreen.hideAsync();
   }, [fontsLoaded, error]);
 
-  if (!fontsLoaded) return null;
   if (!fontsLoaded && !error) return null;
 
   return (

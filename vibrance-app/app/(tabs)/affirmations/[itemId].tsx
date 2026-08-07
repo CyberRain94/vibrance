@@ -25,7 +25,7 @@ const AffirmationPractice = () => {
 
       //Find the especific affirmation by ID
       const affirmationToStart = affirmationsData.find(
-        (a) => a.id === Number(itemId)
+        (a) => a.id === Number(itemId),
       );
 
       if (affirmationToStart) {
